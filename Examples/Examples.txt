@@ -1,0 +1,40 @@
+C programlama dili Prosedürel bir programlama dilidir.
+Prosedürel dil, bir iş yapan alt programların daima sınıf
+yapısı olmadan yazılan dillere denir.
+
+Tokens(Atomlar)
+
+1-)Anahtar Sözcükler(Keywords):Dil için bir anlama gelen sözcüklere anahtar
+sözcük denir.
+Örn:int,double,if,for,while,break,goto,struct,union,static,void,unsigned,switch,continue
+2-)Operatörler(Operators):Bir iş yapan atomlara operatör denir.
+Örn: ->,<<,>>,|,||,&,&&,^,!,%,.
+3-)Sabitler(Constants)
+Örn: 100,'n',-45.66,5.89F,100000L,100llu
+4-)Değişkenler(Variables/Identifiers)
+Örn: sum,average,value,func,isPrime
+5-)Stringler(String Literals)
+Örn: "İzmir","Berke","Batur"
+6-)Özel Karakterler(Special Characters)
+Örn: "#","{}","[]"
+7-)Önişlemci Komutları:
+Örn: #include,#if,#else,#endif,#define,#elif
+
+C Dilinde Hata Mesajları
+
+Warnings: Derleme işlemine mani olmayan ancak kodun kötü yazılmasından
+da oluşabilecek hatalara denir.
+
+Compile Error: Program yazılırken yapılan sentaks hatalarına denir.
+Derleme zamanının tamamlanmasına engel olan hatalardır.
+
+Fatal Error: Derleme zamanının tamamlanmasına engel olan hatalardır.
+Genellikle programcıdan kaynaklanmayan hatalardır. Sentaks ile doğrudan
+bir alakası yoktur.
+
+Undefined Behaviour:Çalışma zamanında ne olucağını bilemediğimiz durumlara
+denir.
+
+Unspecified Behaviour(implemention defined): Derleyiciden derleyiciye kodun
+çalışmasının değişebileceği durumlardır.
+
